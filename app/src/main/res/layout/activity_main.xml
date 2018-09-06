@@ -7,26 +7,41 @@
     tools:context=".MainActivity">
 
     <gautamastudios.com.whatbadge.Badge
+        android:id="@+id/badge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        app:badge_height="380dp"
-        app:badge_width="220dp"
+        android:layout_marginBottom="8dp"
+        app:badge_height="175dp"
+        app:badge_width="98dp"
         app:border_color="#61C436"
-        app:corner_raidus="25f"
+        app:center_icon="@drawable/ic_android_black_24dp"
+        app:corner_radius="25"
         app:inner_container_background_color="#FFFFFF"
         app:inner_container_circle_border_color="#61C436"
-        app:inner_container_circle_border_width="6dp"
+        app:inner_container_circle_border_width="8"
         app:inner_container_circle_color="#D8D8D8"
         app:inner_text="Reading in Groups"
         app:inner_text_color="#4A4A4A"
-        app:inner_text_size="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:inner_text_size="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/hide_button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:title_text="Up Next"
         app:title_text_color="#FFFFFF"
-        app:title_text_size="24sp" />
+        app:title_text_size="14sp" />
+
+    <Button
+        android:id="@+id/hide_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Hide Outer Layer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>
