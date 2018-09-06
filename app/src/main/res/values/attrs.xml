@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeView">
+        <attr name="badge_height" format="dimension" />
+        <attr name="badge_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="title_text" format="string" />
+        <attr name="title_text_size" format="dimension" />
+        <attr name="title_text_color" format="color" />
+        <attr name="inner_container_background_color" format="color" />
+        <attr name="inner_container_circle_color" format="color" />
+        <attr name="inner_container_circle_border_color" format="color" />
+        <attr name="inner_container_circle_border_width" format="dimension" />
+        <attr name="inner_text" format="string" />
+        <attr name="inner_text_size" format="dimension" />
+        <attr name="inner_text_color" format="color" />
+        <attr name="corner_radius" format="float" />
+    </declare-styleable>
+</resources>

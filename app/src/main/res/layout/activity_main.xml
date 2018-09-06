@@ -7,11 +7,26 @@
     tools:context=".MainActivity">
 
     <gautamastudios.com.whatbadge.Badge
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:badge_height="380dp"
+        app:badge_width="220dp"
+        app:border_color="#61C436"
+        app:corner_raidus="25f"
+        app:inner_container_background_color="#FFFFFF"
+        app:inner_container_circle_border_color="#61C436"
+        app:inner_container_circle_border_width="6dp"
+        app:inner_container_circle_color="#D8D8D8"
+        app:inner_text="Reading in Groups"
+        app:inner_text_color="#4A4A4A"
+        app:inner_text_size="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_text="Up Next"
+        app:title_text_color="#FFFFFF"
+        app:title_text_size="24sp" />
 
 </android.support.constraint.ConstraintLayout>
